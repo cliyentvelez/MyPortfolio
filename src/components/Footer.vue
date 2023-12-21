@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-50">
-        <div class="mx-auto max-w-screen-xl px-12 py-6">
-            <p class="text-center text-gray-500">© 2023-2024 My Portfolio. All Rights Reserved.</p>
+        <div class="rounded-lg bg-gradient-to-r from-cyan-600 to-cyan-800 px-1 py-3 text-centerfont-semibold text-white shadow-md focus:ring-2 focus:ring-cyan-600 focus:ring-opacity-50 transition duration-300 md:text-base">
+            <p class="text-center text-gray-300">© 2023-2024 My Portfolio. All Rights Reserved.</p>
         </div>
     </footer>
 </template>

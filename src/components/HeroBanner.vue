@@ -1,8 +1,8 @@
 <script setup>
 // Social Links - Update this links to your link
-const FacebookLink = 'https://www.facebook.com/itsarielbatoon';
-const LinkedinLink = 'https://www.linkedin.com/in/ariel-batoon-679688286/';
-const GithubLink = 'https://github.com/arielbatoon09';
+const FacebookLink = 'https://www.facebook.com/cliyent.velez';
+const LinkedinLink = '';
+const GithubLink = '';
 
 
 </script>
@@ -16,21 +16,21 @@ const GithubLink = 'https://github.com/arielbatoon09';
             <div class="sm:text-center lg:py-12 lg:text-left xl:py-24">
                 <p class="mb-4 font-semibold text-gray-600 md:mb-6 md:text-lg xl:text-xl">Getting to know</p>
 
-                <h1 class="mb-8 text-4xl font-bold text-cyan-700 sm:text-5xl md:mb-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+                <h1 class="mb-8 text-4xl font-bold text-cyan-700 sm:text-5xl md:mb-12">Hi there! My name is Cliyent V.
+                    Siclot. I'm 22 years old studying in Cordova Public College.</h1>
 
                 <div class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-                    <router-link to="/contact" href="#"
-                        class="inline-block rounded-lg bg-cyan-700 px-8 py-3 text-center text-sm font-semibold text-white outline-none 
-                        ring-indigo-300 transition duration-100 hover:bg-cyan-600 focus-visible:ring active:bg-cyan-700 md:text-base">
+                    <router-link to="/about" href="#"
+                        class="inline-block rounded-lg bg-gradient-to-r from-cyan-600 to-cyan-800 px-8 py-3 text-center text-sm font-semibold text-white shadow-md hover:from-cyan-700 hover:to-cyan-900 focus:outline-none focus:ring-2 focus:ring-cyan-600 focus:ring-opacity-50 transition duration-300 md:text-base">
                         About Me
                     </router-link>
 
                     <router-link to="/contact"
-                        class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none 
-                        ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">
+                        class="inline-block rounded-lg bg-gradient-to-r from-gray-300 to-gray-400 px-8 py-3 text-center text-sm font-semibold text-gray-700 shadow-md hover:from-gray-400 hover:to-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-50 transition duration-300 md:text-base">
                         Contact Me
                     </router-link>
                 </div>
+
             </div>
 
             <!-- Social Media -->
@@ -39,10 +39,10 @@ const GithubLink = 'https://github.com/arielbatoon09';
                 <span class="h-px w-12 bg-gray-200"></span>
 
                 <div class="flex gap-4">
-                    <a :href="FacebookLink" target="_blank" 
+                    <a :href="FacebookLink" target="_blank"
                         class="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-                        <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor" viewBox="0 0 8 19">
+                        <svg class="h-5 w-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            viewBox="0 0 8 19">
                             <path fill-rule="evenodd"
                                 d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
                                 clip-rule="evenodd" />
@@ -70,8 +70,9 @@ const GithubLink = 'https://github.com/arielbatoon09';
             </div>
         </div>
         <div class="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-            <img src="https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?auto=format&q=75&fit=crop&w=1000"
-                loading="lazy" alt="Photo by Fakurian Design" class="h-full w-full object-cover object-center" />
+            <img src="../images/mainlogo.jpg" loading="lazy" alt="Photo by Fakurian Design"
+                class="h-full w-full object-cover object-center" />
         </div>
+
     </section>
 </template>

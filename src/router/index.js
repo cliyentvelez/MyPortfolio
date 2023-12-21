@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import ProjectsView from '../views/ProjectsView.vue';
 import ContactView from '../views/ContactView.vue';
+import Todolist from '../views/Todolist.vue';
+import FlowersView from '../views/FlowersView.vue';
 
 const routes = [
   {
@@ -24,6 +26,16 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactView
+  },
+  {
+    path: '/todolist',
+    name: 'todolist',
+    component: Todolist
+  },
+  {
+    path: '/flowers',
+    name: 'flowers',
+    component: FlowersView
   },
 ]
 
